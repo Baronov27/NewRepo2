@@ -1,0 +1,9 @@
+﻿<Application x:Class="Практикум_1_Руденко_Аветисян.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Практикум_1_Руденко_Аветисян"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

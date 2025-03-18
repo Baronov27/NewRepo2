@@ -1,0 +1,36 @@
+﻿<Window x:Class="coffe_Amerikano__G_.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coffe_Amerikano__G_"
+        mc:Ignorable="d"
+        Title="AuthWindow" Height="450" Width="800">
+    <Grid Margin="-10,0,10,0" RenderTransformOrigin="0.504,0.46">
+        <Button Content="Чупеп" Grid.Column="2" Margin="0,58,2,15" Grid.Row="1" RenderTransformOrigin="0.656,0.472">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="54.427"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="146.752"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+    </Grid>
+</Window>
